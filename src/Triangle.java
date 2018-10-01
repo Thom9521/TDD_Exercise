@@ -12,8 +12,8 @@ public class Triangle {
     }
 
     public double area(int sides){
-
-    return 10;
+        area = (Math.pow(3,0.5)/4) * ((Math.pow(sides,2)));
+    return area;
     }
 
 }

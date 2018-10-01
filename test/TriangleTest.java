@@ -20,10 +20,17 @@ public class TriangleTest {
     void testArea(){
         Triangle triangle = new Triangle();
 
-        int sides = 5;
+        double area = triangle.area(3);
+
+        assertEquals(3.8971143170299736, area);
+    }
+
+    @Test
+    void testAreaAgain(){
+        Triangle triangle = new Triangle();
 
         double area = triangle.area(5);
 
-        assertEquals(10, area);
+        assertEquals(10.825317547305483, area);
     }
 }
