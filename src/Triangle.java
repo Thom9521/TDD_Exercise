@@ -18,7 +18,8 @@ public class Triangle {
     }
 
     public double volume(int sides){
-        return 10;
+        volume = ((Math.sqrt(3)/4) * ((Math.pow(sides,2)) * sides));
+        return volume;
     }
 
 }

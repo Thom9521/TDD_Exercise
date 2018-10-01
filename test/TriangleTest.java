@@ -41,6 +41,16 @@ public class TriangleTest {
 
         double volume = triangle.volume(5);
 
-        assertEquals(10, volume);
+        assertEquals(54.12658773652741, volume);
     }
+    @Test
+    void testVolumeAgain(){
+
+        Triangle triangle = new Triangle();
+
+        double volume = triangle.volume(10);
+
+        assertEquals(433.0127018922193, volume);
+    }
+
 }
