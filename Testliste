@@ -1,3 +1,5 @@
 Test getSides = 5
 Test getSides = 6
 Test area()
+Test areaAgain()
+Test volume()

@@ -33,4 +33,14 @@ public class TriangleTest {
 
         assertEquals(10.825317547305483, area);
     }
+
+    @Test
+    void testVolume(){
+
+        Triangle triangle = new Triangle();
+
+        double volume = triangle.volume(5);
+
+        assertEquals(10, volume);
+    }
 }
