@@ -9,10 +9,10 @@ public class TriangleTest {
 
         int sides;
 
-        triangle.getSides();
+        triangle.setSides(6);
 
         sides = triangle.getSides();
 
-        assertEquals(5, sides);
+        assertEquals(6, sides);
     }
 }
