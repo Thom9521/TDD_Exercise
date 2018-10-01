@@ -15,4 +15,15 @@ public class TriangleTest {
 
         assertEquals(6, sides);
     }
+
+    @Test
+    void testArea(){
+        Triangle triangle = new Triangle();
+
+        int sides = 5;
+
+        double area = triangle.area(5);
+
+        assertEquals(10, area);
+    }
 }
